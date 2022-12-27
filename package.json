@@ -1,0 +1,24 @@
+{
+  "name": "koishi-plugin-img2cmd",
+  "description": "An image api to koishi command converter plugin",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.10.10"
+  },
+  "dependencies": {
+    "magic-bytes.js": "^1.0.13"
+  }
+}
